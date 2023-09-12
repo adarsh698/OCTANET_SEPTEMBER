@@ -1,19 +1,18 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>It's CrushCoffee 0'Clock</title>
+    <title>Fast Food</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="images/logo10.jpg"/>
+    <link rel="icon" href="images/logo3.avif" />
 </head>
 
 <body>
     <section>
         <div class="circle"></div>
         <header>
-            <a href="#" class="logo"><img src="images/logo4.png" /></a>
+            <a href="#" class="logo"><img src="images/fast food2.jpg" /></a>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Menu</a></li>
@@ -23,44 +22,43 @@
         </header>
         <div class="Content">
             <div class="textBox">
-                <h2>IT's not just Coffee<br>It's <span>The Crush Coffee to Go</span></h2>
-                <p>True love these days can be found in a lot of creative places—online, at a bar, or the old-fashioned
-                    way, on a blind date. But to a true coffee lover, the relationship they want and need is found every
-                    morning (noon and night, sometimes!) at the bottom of their favorite mug. Black, cream, sugar, foam,
-                    no foam, these preferences could easily divide nations, it seems, because people LOVE their coffee a
-                    certain and often will not budge on changing it. Growing up in Seattle, where Starbucks is the
-                    Mothership, and craft coffee shops are found on every corner, I grew up thinking coffee and coffee
-                    culture was a normal way of life. But for many people, coffee is just what gets you going in the
-                    morning.</p>
+                <h2>IT's not just Fast Food<br>It's <span>The Crush of new Generation to Go</span></h2>
+                <p>Welcome to our mouthwatering world of fast food delights! Prepare to tantalize your taste buds with
+                    our delectable menu filled with savory burgers, crispy fries, and a whole lot more. We're all about
+                    delivering quick, delicious, and satisfying meals to satisfy your cravings. Whether you're in a rush
+                    or simply want to indulge in some comfort food, we've got you covered. Dive into a world of flavor
+                    and convenience with every bite. Order now and experience the ultimate fast food bliss!</p>
                 <a href="#">Learn More</a>
             </div>
-                <div class="imgBox">
-                    <img src='images/logo1.jpg' class="CrushCoffee">  
-                </div>
+            <div class="imgBox">
+                <img src='images/logo main.webp' class="CrushCoffee">
             </div>
-            <ul class="thumb">
-                <li><img src="images/pic5.jpg" onclick="imgSlider('images/pic5.jpg');changeCircleColor('#d752b1')"></li>
-                <li><img src="images/pic7.jpg" onclick="imgSlider('images/pic7.jpg');changeCircleColor('#800020')"></li>
-                <li><img src="images/Pic6.webp" onclick="imgSlider('images/Pic6.webp');changeCircleColor('#eb7495')"></li>
-                <li><img src="images/pic8.avif" onclick="imgSlider('images/pic8.avif');changeCircleColor('#5B5659')"></li>
-            </ul>
-            <ul class="sci">
-                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-            </ul>
+        </div>
+        <ul class="thumb">
+            <li><img src="images/pizza.jpg" onclick="imgSlider('images/pizza.jpg');changeCircleColor('#EB0934')"></li>
+            <li><img src="images/Burger.jpg" onclick="imgSlider('images/Burger.jpg');changeCircleColor('#800020')"></li>
+            <li><img src="images/momo.jpg" onclick="imgSlider('images/momo.jpg');changeCircleColor('#5DD587')"></li>
+            <li><img src="images/French fride.jpg"
+                    onclick="imgSlider('images/French fride.jpg');changeCircleColor('#9C2F44')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
     </section>
 
     <script type="text/javascript">
-        function imgSlider(anything){
+        function imgSlider(anything) {
             document.querySelector('.CrushCoffee').src = anything;
         }
-        
-        function changeCircleColor(color){
-          const circle = document.querySelector('.circle');
-          circle.style.background = color;  
+
+        function changeCircleColor(color) {
+            const circle = document.querySelector('.circle');
+            circle.style.background = color;
         }
     </script>
     <script src="https://kit.fontawesome.com/69619820cf.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

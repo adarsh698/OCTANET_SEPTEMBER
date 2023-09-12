@@ -6,6 +6,17 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+section::before{
+    content: "";
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    opacity: .5;
+}
 section
 {
     position: relative;
@@ -15,7 +26,6 @@ section
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff;
 }
 header
 {
@@ -46,8 +56,9 @@ header ul li
 header ul li a
 {
     display: inline-block;
-    color: #333;
-    font-weight: 400;
+    color: #000;
+    font-weight: 600;
+    font-size: 20px;
     margin-left: 40px;
     text-decoration: none;
 }
@@ -69,14 +80,17 @@ header ul li a
     font-size: 2em;
     line-height: 1.4em;
     font-weight: 500;
+    text-shadow: black;
 }
 .Content .textBox h2 span{
-    color: #017143;
+    color: #b21832;
     font-size: 1.2em;
     font-weight: 900;
+    text-shadow: black;
 }
 .Content .textBox p{
 color: #333;
+text-shadow: black;
 }
 .Content .textBox a{
     display: inline-block;
